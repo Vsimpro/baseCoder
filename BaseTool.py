@@ -138,11 +138,11 @@ def main():
     if user == "b64":
         b64(string)
     if user == "b32":
-        pass
+        b32(string)
     if user == "b16":
-        pass
+        b16(string)
     if user == "b85":
-        pass
+        b85(string)
     if user == "all":
         tryall(string)    
 
