@@ -144,10 +144,7 @@ def main():
     if user == "b85":
         pass
     if user == "all":
-        tryall(string)
-    
-    print("Invalid input.")
-    main()        
+        tryall(string)    
 
 if default:
     try:
