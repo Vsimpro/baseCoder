@@ -41,7 +41,7 @@ def base32decode(n):
 def base64encode(n):
     level = 1
     user_encoded = n
-    for i in range(0, levelOfEncryption:
+    for i in range(0, levelOfEncryption):
         user_encoded = base64.b64encode(user_encoded)
         print(f"Encoded {level} times: '{user_encoded.decode()}'")
         level += 1
